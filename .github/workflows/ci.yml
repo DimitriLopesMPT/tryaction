@@ -6,6 +6,7 @@ on:
 jobs:
   version:
     name: release
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/hello-world-docker-action@v2
         with:
