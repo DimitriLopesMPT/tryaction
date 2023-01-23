@@ -1,6 +1,4 @@
-jobs:
-  version:
-    name: release
+name: release
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'test'
+      - run : echo "test"
