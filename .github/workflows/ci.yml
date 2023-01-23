@@ -1,0 +1,12 @@
+name: Call tests builder
+
+on:
+  push:
+
+jobs:
+  version:
+    name: release
+    steps:
+      - uses: actions/hello-world-docker-action@v2
+        with:
+          who-to-greet: 'Mona the Octocat'
